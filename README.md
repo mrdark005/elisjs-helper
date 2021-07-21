@@ -7,7 +7,7 @@ const elisjs = require("@aloima/elisjs")
 const client = elisjs.create("bot token", {
     compress: true // default value is false, enables zlib-stream parsing.
 })
-const elisHelper = require("elisjs-helper")
+const elisHelper = require("./src/index")
 const helper = new elisHelper.client(client)
 
 client.events.ready = (() => {
@@ -19,10 +19,24 @@ client.login()
 
 # Examples
 
+**Command Handler**
 ```js
 helper.createHandler({prefix:"!", folder:__dirname + "/commands"})
 ```
 
+**Embed**
+```js
+new elisHelpler.embed()
+.setColor()
+.setAuthor()
+.setDescription()
+.setImage()
+.setFooter()
+.setThumbnail()
+.setTimestamp()
+.setURL()
+.setTitle()
+```
 
 # Support server
 You can take support in [this server](https://discord.gg/node) in #elisjs-support.
