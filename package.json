@@ -1,0 +1,31 @@
+{
+  "name": "elisjs-helper",
+  "version": "0.0.2",
+  "description": "@aloima/elisjs helper module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elis-team/elisjs.git"
+  },
+  "keywords": [
+    "elisjs",
+    "elis",
+    "discord",
+    "discordapp",
+    "app",
+    "helper",
+    "elisjs-helper"
+  ],
+  "author": "mr_dark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elis-team/elisjs/issues"
+  },
+  "homepage": "https://github.com/elis-team/elisjs#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
