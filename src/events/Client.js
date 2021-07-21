@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-class elisHelper {
+class client {
     constructor(client){
         if(!client) throw new Error("client is not defined")
         this.client = client
@@ -34,6 +34,5 @@ class elisHelper {
  }
 }
 
-module.exports = {
-    client:elisHelper
-}
+
+module.exports = client
