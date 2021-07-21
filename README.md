@@ -7,7 +7,7 @@ const elisjs = require("@aloima/elisjs")
 const client = elisjs.create("bot token", {
     compress: true // default value is false, enables zlib-stream parsing.
 })
-const elisHelper = require("./src/index")
+const elisHelper = require("elisjs-helper")
 const helper = new elisHelper.client(client)
 
 client.events.ready = (() => {
