@@ -24,19 +24,5 @@ client.login()
 helper.createHandler({prefix:"!", folder:__dirname + "/commands"})
 ```
 
-**Embed**
-```js
-new elisHelpler.embed()
-.setColor()
-.setAuthor()
-.setDescription()
-.setImage()
-.setFooter()
-.setThumbnail()
-.setTimestamp()
-.setURL()
-.setTitle()
-```
-
 # Support server
 You can take support in [this server](https://discord.gg/node) in #elisjs-support.
