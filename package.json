@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/mrdark005/elisjs-helper#readme",
   "dependencies": {
+    "@aloima/elisjs": "^0.1.0",
     "fs": "0.0.1-security"
   }
 }
