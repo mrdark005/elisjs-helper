@@ -1,6 +1,6 @@
 {
   "name": "elisjs-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "@aloima/elisjs helper module",
   "main": "src/index.js",
   "scripts": {
